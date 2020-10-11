@@ -1,6 +1,9 @@
   
 body{
 	background-color: black;
+	margin: 0px;
+  	padding: 0px;
+  	height: 100%;
 }
 nav{
 	background-color: #0199fe;
