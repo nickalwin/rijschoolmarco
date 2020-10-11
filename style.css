@@ -13,11 +13,25 @@ nav{
 	display: inline-block;
 }
 
+#navi ul {
+  height:100%;
+  display: inline;
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 16px;
+  overflow: hidden;
+
+}
+
 nav a {
 	color: #ffffff;
 	text-decoration: none;
 	text-align: center center;
 	height: 100%;
+	padding-left: 16px;
+  	padding-right: 16px;
 	
 }
 
