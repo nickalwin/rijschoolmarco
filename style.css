@@ -16,6 +16,8 @@ nav{
 nav a {
 	color: #ffffff;
 	text-decoration: none;
+	text-align: center center;
+	
 }
 
 nav a:hover {
