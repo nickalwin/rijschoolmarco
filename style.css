@@ -1,0 +1,25 @@
+  
+body{
+	background-color: #000c26;
+}
+nav{
+	background-color: #03318f;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+.nav-button{
+	height: 150px;
+}
+
+nav a {
+	display: inline-block;
+	color: #ffffff;
+	font-family: GlacialIndifference;
+	text-align: center center;
+	text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #274efd;
+}
