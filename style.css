@@ -54,6 +54,11 @@ body{
 	.nav-bar > .nav-logo {
 		padding: 0;
 	}
+	.nav-bar > .menu-logo{
+		float: right;
+		height: 100%;
+		width: auto;
+	}
 }
 
 /* NAVIGATION : DESKTOP */
