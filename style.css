@@ -7,10 +7,14 @@ body{
 	float: left;
 	height: 100%;
 }
+#menu{
+	float: right;
+	height: 100%;
+}
 
 /* NAVIGATION : PHONE*/
-@media screen and (max-width: 400px) {
-	.nav-bar {
+@media screen and (max-width: 740px) {
+		.nav-bar {
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -19,16 +23,16 @@ body{
 		display: inline;
 		background-color: #0199fe;
 		width: 100%;
-		max-height: 3em;
+		height: 4em;
 	}
 
 	.nav-bar > ul {
-		display: none;
 		padding: 0;
 		margin: 0;
 		height: 4em;
 		float: right;
 		list-style-type: none;
+		display: none;
 	}
 
 	.nav-bar > ul > a {
@@ -55,15 +59,14 @@ body{
 		padding: 0;
 	}
 	.nav-bar > .menu-logo{
-		float: right;
-		height: 100%;
-		width: auto;
+		padding: 0;
+	    display: inline;
 	}
 }
 
-/* NAVIGATION : DESKTOP */
-@media screen and (max-width: 1400px) {
-	.nav-bar {
+/* NAVIGATION : DESKTOP*/
+@media screen and (min-width: 740px) and (max-width: 1600px) {
+		.nav-bar {
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -105,6 +108,10 @@ body{
 
 	.nav-bar > .nav-logo {
 		padding: 0;
+	}
+	.nav-bar > .menu-logo{
+		padding: 0;
+	    display: none;
 	}
 }
 
