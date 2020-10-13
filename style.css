@@ -75,6 +75,8 @@ body{
 	height: 100%;
 	width: 100%;
 }
-.whatsapp > img{
+.whatsapp-img{
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 8em;
 }
