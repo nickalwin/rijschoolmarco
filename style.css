@@ -1,5 +1,5 @@
 body{
-	background-color: #00010c;
+	background-color: ;
 	margin: 0;
 }
 
@@ -27,24 +27,24 @@ body{
 	}
 
 	.nav-bar > ul {
+		background-color: #0199fe;
 		padding: 0;
 		margin: 0;
-		height: 100%;
+		margin-top: 4em;
+		height: auto;
+		width: 100%;
 		list-style-type: none;
-		background-color: #0199fe;
+		display: none;
 	}
 
 	.nav-bar > ul > a {
-		line-height: 4em;
-		padding-left: 2em;
-		padding-right: 2em;
-
+		text-align:center;
+	    line-height: 4em;
+		width: 100%;
 		display: inline-block;
-
 		text-decoration: none;
 		color: black;
 		font-style: bold;
-		background-color: none;
 		transition: 1s;
 	}
 
