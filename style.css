@@ -84,9 +84,22 @@ body{
 	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
-	height: 50%;
-	width: 97%;
+	margin-top: -5%;
+	height: 70%;
+	width: 100%;
 
+}
+	.over_onstext{
+	background-color: white;
+	margin-top: 4em;
+	height: 50%;
+	width: 100%;
+}
+	.lestext{
+	background-color: white;
+	margin-top: 4em;
+	height: 50%;
+	width: 100%;
 }
 }
 
