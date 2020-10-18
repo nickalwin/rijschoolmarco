@@ -101,6 +101,11 @@ body{
 	height: 50%;
 	width: 100%;
 }
+	.instapost{
+		width: 90%;
+		height: auto;
+	}
+	
 }
 
 /* NAVIGATION : DESKTOP*/
@@ -195,6 +200,10 @@ body{
 	height: 50%;
 	width: 100%;
 }
+	.instapost{
+	width: 50%;
+	height: auto;
+	}
 }
 
 
